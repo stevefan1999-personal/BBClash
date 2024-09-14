@@ -50,7 +50,6 @@ Because this package was built for an existing application, and because it is pe
 Building is as simple as running `$ cargo build`. Tests and benchmarks can be run with `$ cargo test` and `$ cargo bench`, respectively.
 */
 
-#![feature(proc_macro_hygiene)]
 extern crate rctree;
 extern crate phf;
 
